@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">OutdoorSupportingApp2</string>
+
+<!--        ホーム-->
+    <string name="home_departure">Departure</string>
+    <string name="home_update">Map</string>
+    <string name="home_destination">Destination</string>
+    <string name="home_camera">Camera</string>
+
+<!--    天気-->
+    <string name="weather_back">Back</string>
+    <string name="weather">Weather</string>
+    <string name="sapporo">Sapporo, Hokkaido</string>
+    <string name="aomori">Aomori</string>
+    <string name="morioka">Morioka, Iwate</string>
+    <string name="akita">Akita</string>
+    <string name="sendai">Sendai, Miyagi</string>
+    <string name="yamagata">Yamagata</string>
+    <string name="fukushima">Fukushima</string>
+    <string name="mito">Mito, Ibaraki</string>
+    <string name="utsunomiya">Utsunomiya, Totigi</string>
+    <string name="maebashi">Maebashi, Gunma</string>
+    <string name="saitama">Saitama</string>
+    <string name="tiba">Tiba</string>
+    <string name="tokyo">Tokyo</string>
+    <string name="yokohama">Yokoham, Kanagawa</string>
+
+    <string name="niigata">Niigata</string>
+    <string name="kofu">Kof, Yamanashi</string>
+    <string name="nagano">Nagano</string>
+    <string name="shizuoka">Shizuoka</string>
+    <string name="nagoya">Nagoya, Aichi</string>
+    <string name="gifu">Gifu</string>
+    <string name="toyama">Toyama</string>
+    <string name="kanazawa">Kanazawa, Ishikawa</string>
+    <string name="fukui">Fukui</string>
+    <string name="tsu">Tsu, Mie</string>
+    <string name="otsu">Otsu, Shiga</string>
+    <string name="nara">Nara</string>
+    <string name="wakayama">Wakayam</string>
+    <string name="kyoto">Kyoto</string>
+    <string name="osaka">Osaka</string>
+    <string name="kobe">Kobe, Hyogo</string>
+    <string name="okayama">Okayama</string>
+    <string name="tottori">Tottori</string>
+    <string name="hiroshima">Hiroshima</string>
+    <string name="matsue">Matsue, Shimane</string>
+    <string name="yamaguchi">Yamaguchi</string>
+    <string name="takamatsu">Takamatsu, Kagawa</string>
+    <string name="tokushima">Tokushima</string>
+    <string name="matsuyama">Matsuyama, Ehime</string>
+    <string name="kochi">Kochi</string>
+    <string name="fukuoka">Fukuoka</string>
+    <string name="saga">Saga</string>
+    <string name="nagasaki">Nagashiki</string>
+    <string name="oita">Oita</string>
+    <string name="kumamoto">Kumamoto</string>
+    <string name="miyazaki">Miyazaki</string>
+    <string name="kagoshima">Kagoshima</string>
+    <string name="naha">Naha, Okinawa</string>
+
+    <!--    メール　共有-->
+    <string name="mail_share">Share</string>
+    <string name="mail_back">Back</string>
+    <string name="mail_send">Send Mail</string>
+    <string name="mail_address_regist">Register</string>
+    <string name="mail_gmail_regist">Address To</string>
+    <string name="mail_count">cases</string>
+    <string name="mail_subject">Subject</string>
+    <string name="mail_context">Context</string>
+
+    <!--    スポット-->
+    <string name="spot_back">Back</string>
+    <string name="spot_title">Recommend　Spot</string>
+    <string name="spot_place">Address:</string>
+    <string name="spot_genre">Genre:</string>
+    <string name="spot_search">Search</string>
+
+    <string-array name="genre_list_str">
+        <item></item>
+        <item>Aquarium</item>
+        <item>Zoo</item>
+        <item>Convenience Store</item>
+        <item>Restaurant</item>
+        <item>Park</item>
+        <item>Sightseeing Spot</item>
+        <item>Art Gallery</item>
+        <item>Museum</item>
+        <item>Shopping Mall</item>
+        <item>Hotel</item>
+        <item>ATM</item>
+        <item>Drug Store</item>
+    </string-array>
+
+
+</resources>

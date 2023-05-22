@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Mail">
+
+    <Button
+        android:id="@+id/Mail_Back_Button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#76D865"
+        android:text="@string/mail_back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/Share_Send_BT"
+        android:layout_width="230dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#76D865"
+        android:text="@string/mail_send"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Share_Address_BT"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_marginTop="40dp"
+        android:backgroundTint="#76D865"
+        android:text="@string/mail_address_regist"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.894"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Share_Send_BT" />
+
+    <TextView
+        android:id="@+id/Share_MyId_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:text="@string/mail_gmail_regist"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Share_Send_BT" />
+
+    <TextView
+        android:id="@+id/Share_Person_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="140dp"
+        android:text="@string/mail_count"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Share_MyId_ET" />
+
+    <TextView
+        android:id="@+id/Share_PesonNum_TV"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:gravity="right"
+        app:layout_constraintEnd_toStartOf="@+id/Share_Person_TV"
+        app:layout_constraintTop_toBottomOf="@+id/Share_MyId_ET" />
+
+    <TextView
+        android:id="@+id/Share_MailTitle_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="40dp"
+        android:text="@string/mail_subject"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Share_MyId_ET" />
+
+    <TextView
+        android:id="@+id/Share_MailText_TV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="15dp"
+        android:text="@string/mail_context"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Share_Title_ET" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="35dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="＠gmail.com"
+        app:layout_constraintStart_toEndOf="@+id/Share_MyId_ET"
+        app:layout_constraintTop_toBottomOf="@+id/Share_MyId_TV" />
+
+    <EditText
+        android:id="@+id/Share_MyId_ET"
+        android:layout_width="180dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="16dp"
+        android:textSize="12sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Share_MyId_TV" />
+
+    <EditText
+        android:id="@+id/Share_Title_ET"
+        android:layout_width="360dp"
+        android:layout_height="35dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Share_MailTitle_TV" />
+
+    <EditText
+        android:id="@+id/Share_Text_ET"
+        android:layout_width="360dp"
+        android:layout_height="wrap_content"
+        android:maxLines="5"
+        android:textSize="14sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.313"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Share_MailText_TV" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

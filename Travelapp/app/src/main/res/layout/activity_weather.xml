@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Weather">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Weather_Place_TV"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginBottom="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/Mail_Back_Button"
+            app:layout_constraintStart_toStartOf="parent"
+            android:layout_marginTop="230dp"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/Weather_Detail_TV"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="6dp"
+            android:layout_marginBottom="156dp"
+            app:layout_constraintBottom_toTopOf="@+id/Mail_Back_Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toEndOf="@+id/Weather_Place_TV"
+            android:textSize="25sp"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/Mail_Back_Button"
+        android:layout_width="150dp"
+        android:layout_height="70dp"
+        android:layout_marginBottom="40dp"
+        android:backgroundTint="#76D865"
+        android:text="@string/weather_back"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ListView
+        android:id="@+id/Weather_City_LV"
+        android:layout_width="451dp"
+        android:layout_height="211dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
